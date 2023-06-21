@@ -6,15 +6,15 @@ This week we are going to practice audit the recent [Sherlock USSD contest](http
 
 ## Progress
 
-- [ ] ussd-contracts/contracts/USSD.sol
-- [ ] ussd-contracts/contracts/USSDRebalancer.sol
-- [ ] ussd-contracts/contracts/interfaces/IStableOracle.sol
-- [ ] ussd-contracts/contracts/interfaces/IStaticOracle.sol
-- [ ] ussd-contracts/contracts/interfaces/IUSSDRebalancer.sol
-- [ ] ussd-contracts/contracts/oracles/StableOracleDAI.sol
-- [ ] ussd-contracts/contracts/oracles/StableOracleWBGL.sol
-- [ ] ussd-contracts/contracts/oracles/StableOracleWBTC.sol
-- [ ] ussd-contracts/contracts/oracles/StableOracleWETH.sol
+- [ ] contracts/USSD.sol
+- [ ] contracts/USSDRebalancer.sol
+- [ ] contracts/interfaces/IStableOracle.sol
+- [ ] contracts/interfaces/IStaticOracle.sol
+- [ ] contracts/interfaces/IUSSDRebalancer.sol
+- [ ] contracts/oracles/StableOracleDAI.sol
+- [ ] contracts/oracles/StableOracleWBGL.sol
+- [ ] contracts/oracles/StableOracleWBTC.sol
+- [ ] contracts/oracles/StableOracleWETH.sol
 
 ## USSD Overview
 
