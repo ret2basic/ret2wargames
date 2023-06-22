@@ -18,7 +18,7 @@ This week we are going to practice audit the recent [Sherlock USSD contest](http
 
 ## USSD Overview
 
-USSD is a stablecoin backed by a busket of tokens as collateral. Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
+USSD is a stablecoin backed by a bucket of tokens as collateral. Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
 
 - `BuyUSSDSellCollateral()` when USSD price drops below $1.
 	- This is because USSD price < $1 means there are more USSD and less collateral in the Uniswap pool, so we want to buy USSD (to reduce USSD in the pool) and sell collateral (to increase collateral in the pool).
@@ -35,4 +35,4 @@ I started the practice audit with the oracle contracts. This is because the logi
 
 `USSD.sol` and `USSDRebalancer.sol` took me about 3 hours to audit (I only wrote audit tags, no report). `USSD.sol` is easier than `USSDRebalancer.sol`, so start with `USSD.sol`. `USSDRebalancer.sol` is more complex whilst having more issues in it, be prepared.
 
-**Hint:** There is a HUGE bug in the rebalancing mechanism. Try find it!
+**Hint:** There is a HUGE bug in the rebalancing mechanism. This bug is the essence of this practice audit. Try to find it!
