@@ -12,5 +12,7 @@ Participants are expected to finish Secureum bootcamp before doing this wargame.
 
 ## Schedule
 
-- [ ] Week 001: Sherlock USSD contest (May 2023)
-- [ ] Week 002: (to be decided)
+- [x] Week 001 (06/24/2023 - 06/25/2023): Sherlock USSD contest (May 2023)
+- [ ] Week 002 (07/01/2023 - 07/02/2023): Code4rena VTVL contest (September 2022)
+- [ ] Week 003 (07/08/2023 - 07/09/2023): Code4rena Rabbithole contest (January 2023)
+- [ ] Week 004: (to be decided)
