@@ -15,4 +15,6 @@ Participants are expected to finish Secureum bootcamp before doing this wargame.
 - [x] Week 001 (06/24/2023 - 06/25/2023): Sherlock USSD contest (May 2023) -> Stablecoin
 - [ ] Week 002 (07/01/2023 - 07/02/2023): Code4rena VTVL contest (September 2022) -> Vesting
 - [ ] Week 003 (07/08/2023 - 07/09/2023): Code4rena Rabbithole contest (January 2023) -> ERC1155
-- [ ] Week 004: (to be decided)
+- [ ] Week 004 (07/15/2023 - 07/16/2023): Code4rena Wenwin contest (March 2023) -> Game
+- [ ] Week 005 (07/22/2023 - 07/23/2023): Code4rena LooksRare Aggregator contest (November 2022) SeaportProxy.sol and LooksRareAggregator.sol -> Proxy
+- [ ] Week 006 (to be decided)
