@@ -29,14 +29,14 @@ https://dacian.me/defi-slippage-attacks
 
 ## USSD Overview
 
-USSD is a stablecoin backed by a bucket of tokens as collateral. Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
+USSD is a stablecoin backed by a bucket of tokens as collateral. The price of USSD is meant to peg with DAI, so the ideal case is 1 USSD = 1 DAI = 1 USD. The trading of USSD will be happening inside a **Uniswap V3 USSD/DAI pool**. As users both directions, the price of USSD can fluctuate up and down, for example, to $0.9 or $1.1. In that case, there must be a way to make USSD peg back to $1, because it is supposed to be a "stable"coin.
+
+Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
 
 - `BuyUSSDSellCollateral()` when USSD price drops below $1.
-	- This is because USSD price < $1 means there are more USSD and less collateral in the Uniswap pool, so we want to buy USSD (to reduce USSD in the pool) and sell collateral (to increase collateral in the pool).
+	- This is because USSD price < $1 means there are more USSD and less collateral in the Uniswap pool, so we want to buy USSD (to reduce USSD in the pool) and sell collateral for DAI (to increase DAI in the pool).
 - `SellUSSDBuyCollateral()` when USSD price exceeds $1.
-	- This is the flipped version of above case.
-
-**TODO**: explain rebalancing mechanism in detail.
+	- This is the flipped version of the above case.
 
 ## Audit Suggestion
 
@@ -48,4 +48,4 @@ I started the practice audit with the oracle contracts. This is because the logi
 
 `USSD.sol` and `USSDRebalancer.sol` took me about 3 hours to audit (I only wrote audit tags, no report). `USSD.sol` is easier than `USSDRebalancer.sol`, so start with `USSD.sol`. `USSDRebalancer.sol` is more complex whilst having more issues in it, be prepared.
 
-**Hint:** There is a HUGE bug in the rebalancing mechanism. This bug is the essence of this practice audit. Try to find it!
+**Hint:** There are a few HUGE bugs in the rebalancing mechanism. Try to find them!
