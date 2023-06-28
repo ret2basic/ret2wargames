@@ -34,7 +34,7 @@ USSD is a stablecoin backed by a bucket of tokens as collateral. The price of US
 Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
 
 - `BuyUSSDSellCollateral()` when USSD price drops below $1.
-	- This is because USSD price < $1 means there are more USSD and less collateral in the Uniswap pool, so we want to buy USSD (to reduce USSD in the pool) and sell collateral for DAI (to increase DAI in the pool).
+	- This is because USSD price < $1 means there are too much USSD and too little DAI in the Uniswap V3 USSD/DAI pool, so we want to buy USSD from the pool (to reduce USSD in the pool) and sell collateral for DAI (to increase DAI in the pool).
 - `SellUSSDBuyCollateral()` when USSD price exceeds $1.
 	- This is the flipped version of the above case.
 
