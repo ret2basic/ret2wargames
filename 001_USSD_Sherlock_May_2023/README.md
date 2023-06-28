@@ -40,12 +40,12 @@ Just like other algorithmic stablecoin implementations, USSD has a rebalancing m
 
 ## Audit Suggestion
 
-> You can expect finishing the entire thing within 6 hours. Reserve a Saturday or Sunday to do this practice audit, maybe break that 6 hours into three 2-hour chunks.
+> You can expect finishing the entire thing within 8 (focused) hours. Reserve a Saturday or Sunday to do this practice audit, maybe break that 8 hours into two days. For myself, 4 focused auditing hour per day is already good enough.
 
-I read the USSD whitepaper before looking at the code. The "rebalancing mechanics" part is interesting. This phase takes about 1 hour.
+I read the USSD whitepaper before looking at the code. The "rebalancing mechanics" part is interesting. This phase takes about 2 hour.
 
-I started the practice audit with the oracle contracts. This is because the logic in oracle contracts are kind of independent of the USSD main contracts, so I wanted to finish this part first and then focus on `USSD.sol` and `USSDRebalancer.sol`. This phase takes around 0.5 hour.
+I started the practice audit with the oracle contracts. This is because the logic in oracle contracts are kind of independent of the USSD main contracts, so I wanted to finish this part first and then focus on `USSD.sol` and `USSDRebalancer.sol`. This phase takes around 1 hour.
 
-`USSD.sol` and `USSDRebalancer.sol` took me about 3 hours to audit (I only wrote audit tags, no report). `USSD.sol` is easier than `USSDRebalancer.sol`, so start with `USSD.sol`. `USSDRebalancer.sol` is more complex whilst having more issues in it, be prepared.
+`USSD.sol` and `USSDRebalancer.sol` took me about 4 hours to audit (I only wrote audit tags, no report). `USSD.sol` is easier than `USSDRebalancer.sol`, so start with `USSD.sol`. `USSDRebalancer.sol` is more complex whilst having more issues in it, be prepared.
 
-**Hint:** There are a few HUGE bugs in the rebalancing mechanism. Try to find them!
+**Hint:** There are a few HUGE bugs in `USSDRebalancer.sol`. They are the essence of this practice audit. Try to find them!
