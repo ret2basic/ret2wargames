@@ -16,6 +16,17 @@ This week we are going to practice audit the recent [Sherlock USSD contest](http
 - [ ] contracts/oracles/StableOracleWBTC.sol
 - [ ] contracts/oracles/StableOracleWETH.sol
 
+## Prerequisites
+
+Familiarize yourself with Uniswap V3 math -> will need this knowledge in `USSDRebalancer.sol`
+
+- https://youtu.be/hKhdQl126Ys
+- https://blog.uniswap.org/uniswap-v3-math-primer
+
+Dacian has a nice article on common slippage issues -> also needed for `USSDRebalancer.sol`
+
+https://dacian.me/defi-slippage-attacks
+
 ## USSD Overview
 
 USSD is a stablecoin backed by a bucket of tokens as collateral. Just like other algorithmic stablecoin implementations, USSD has a rebalancing mechanism (`rebalance()`) that:
@@ -24,6 +35,8 @@ USSD is a stablecoin backed by a bucket of tokens as collateral. Just like other
 	- This is because USSD price < $1 means there are more USSD and less collateral in the Uniswap pool, so we want to buy USSD (to reduce USSD in the pool) and sell collateral (to increase collateral in the pool).
 - `SellUSSDBuyCollateral()` when USSD price exceeds $1.
 	- This is the flipped version of above case.
+
+**TODO**: explain rebalancing mechanism in detail.
 
 ## Audit Suggestion
 
