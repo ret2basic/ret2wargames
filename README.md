@@ -14,9 +14,8 @@ Feel free to DM me on [Twitter](https://twitter.com/ret2basic) if you have quest
 
 ## Schedule
 
-- [x] Week 001 (06/26/2023 - 07/02/2023): Sherlock USSD contest (May 2023) -> Stablecoin
-- [ ] Week 002 (07/03/2023 - 07/09/2023): Code4rena VTVL contest (September 2022) -> Vesting
-- [ ] Week 003 (07/10/2023 - 07/16/2023): Oak Security Poseidon DAO audit (December 2022) -> ERC20, ERC1155 
-- [ ] Week 004 (07/17/2023 - 07/23/2023): Code4rena Rabbithole contest (January 2023) -> ERC1155
-- [ ] Week 005 (07/24/2023 - 07/30/2023): Code4rena Wenwin contest (March 2023) -> Game
-- [ ] Week 006 (to be decided)
+- [x] Week 001 (07/03/2023 - 07/09/2023): Sherlock USSD contest (May 2023) -> Stablecoin
+- [ ] Week 002 (07/10/2023 - 07/16/2023): Code4rena VTVL contest (September 2022) -> Vesting
+- [ ] Week 003 (07/17/2023 - 07/23/2023): Code4rena Wenwin contest (March 2023) -> Game 
+- [ ] Week 004 (07/24/2023 - 07/30/2023): Code4rena Rabbithole contest (January 2023) -> ERC1155
+- [ ] Week 005 (07/24/2023 - 07/30/2023): (to be decided)
