@@ -26,6 +26,6 @@ Every two weeks I will pick a small codebase from either Code4rena or Sherlock a
 - [ ] Week 003: Secureum RACE #18
 - [ ] Week 004: Code4rena VTVL contest (September 2022) -> Vesting
 - [ ] Week 005: Secureum RACE (to be decided)
-- [ ] Week 006: Code4rena Rabbithole contest (January 2023), Part 1
+- [ ] Week 006: Code4rena Wenwin contest (March 2023)
 - [ ] Week 007: Secureum RACE (to be decided)
-- [ ] Week 008: Code4rena Rabbithole contest (January 2023), Part 2
+- [ ] Week 008: Code4rena Rabbithole contest (January 2023)
