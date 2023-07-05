@@ -4,7 +4,7 @@
 
 "ret2wargames" is a weekly event that I run in [OpenSense Discord channel](https://discord.gg/opensense). The wargame contains two branches:
 
-- In odd-number weeks, we go over a [Secureum](https://discord.gg/q49xdRHbBa) RACE. Participants should at least look at the contract briefly before the event.
+- In odd-number weeks, we go over a Secureum RACE. Participants should at least look at the contract briefly before the event.
 - In even-number weeks, we live audit a past Code4rena/Sherlock contest. Participants should practice audit the codebase themselves before the event.
 
 **Participants are expected to finish [Secureum bootcamp](https://github.com/x676f64/secureum-mind_map) before following along with this wargame.**
