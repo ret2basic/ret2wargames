@@ -18,7 +18,7 @@ We are going to work through Paradigm CTF 2021 and 2022 challenges to prep this 
 
 What is a "practice audit"? It means auditing an audited codebase without looking after the report. After the practice audit, you can compare your findings with the report to see what you missed. I believe this is a better learning experience than reading tons of reports without knowing the context.
 
-Every other week I will pick a small codebase from either Code4rena or Sherlock and share it here. Some explanation of the concepts and study resources will be provided to make the practice audit more efficient.
+I will pick a small codebase/contract from either Code4rena or Sherlock and share it here. Some explanation of the concepts and study resources will be provided to make the practice audit more efficient.
 
 ## Schedule
 
