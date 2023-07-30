@@ -20,7 +20,7 @@ contract WalletFactory {
 
     function deployAndLoad(uint256 salt) external payable returns (address addr) {
         addr = deploy(salt);
-        // @audit-info Unchecked return value
+        // @audit-issue Unchecked return value
         payable(addr).send(msg.value);
     }
 
