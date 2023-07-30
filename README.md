@@ -23,10 +23,10 @@ I will pick a small codebase/contract from either Code4rena or Sherlock and shar
 ## Schedule
 
 - [ ] Week 001: Secureum RACE 19
-- [ ] Week 002: Paradigm CTF 2022 EVM challenges, part 1
-- [ ] Week 003: Paradigm CTF 2022 EVM challenges, part 2
-- [ ] Week 004: Paradigm CTF 2022 EVM challenges, part 3
-- [ ] Week 005: Paradigm CTF 2022 Solana challenges
-- [ ] Week 006: Paradigm CTF 2022 Cairo challenges
-- [ ] Week 007: (to be decided)
-- [ ] Week 008: (to be decided)
+- [ ] Week 002: Secureum AMAZEX DSS Paris
+- [ ] Week 003: QuillCTF MetaToken
+- [ ] Week 004: No meeting -> Flashbot CTF
+- [ ] Week 005: Flashbot CTF
+- [ ] Week 006: Paradigm CTF 2022
+- [ ] Week 007: Paradigm CTF 2022
+- [ ] Week 008: Paradigm CTF 2022
